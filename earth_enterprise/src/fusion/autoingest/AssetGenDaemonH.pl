@@ -213,7 +213,7 @@ public: // this will nee to be looked at or MyUpdate moved to AssetFactory
 
 protected:
     ${name}AssetImplD(const std::string &ref_ $formaltypearg,
-		$formalinputarg
+                $formalinputarg
                 const khMetaData &meta_,
                 const Config& config_)
         : AssetImpl(AssetStorage::MakeStorage(ref_, $actualtypearg, "$subtype", $actualinputarg, meta_)),
